@@ -54,6 +54,8 @@ public class SwordBehavior : MonoBehaviour
 
     public void Swing()
     {
+
+        Debug.Log(swingTimer);
         swingTimer = swingCooldown;
         comboTimer = comboCooldown;
 
@@ -66,6 +68,10 @@ public class SwordBehavior : MonoBehaviour
 
         combo += 1;
 
+    }
+    
+    public void SwordHit()
+    {
         LayerMask layerMask = LayerMask.GetMask("Default");
 
         List<GameObject> objects = boundaryBoxBehavior.getOverlappingObjects(layerMask, "Breakable");
@@ -77,7 +83,7 @@ public class SwordBehavior : MonoBehaviour
             }
         }
     }
-    
+
     public void HandleToss()
     {
         
