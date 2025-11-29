@@ -1,6 +1,6 @@
 //Maya ASCII 2025ff03 scene
 //Name: Facility_Hallway_Tileset_V1.ma
-//Last modified: Fri, Nov 28, 2025 02:07:21 PM
+//Last modified: Fri, Nov 28, 2025 02:10:41 PM
 //Codeset: 1252
 requires maya "2025ff03";
 requires "stereoCamera" "10.0";
@@ -12,19 +12,19 @@ fileInfo "product" "Maya 2025";
 fileInfo "version" "2025";
 fileInfo "cutIdentifier" "202407121012-8ed02f4c99";
 fileInfo "osv" "Windows 11 Home v2009 (Build: 26100)";
-fileInfo "UUID" "40814FD1-479F-C264-B4C8-6281552A02AD";
+fileInfo "UUID" "DA0BB9F7-448E-7F42-7CB4-45942C3747D8";
 createNode transform -s -n "persp";
 	rename -uid "918F447C-4455-D661-3A14-37A51590A051";
 	setAttr ".v" no;
-	setAttr ".t" -type "double3" 64.759122075426234 22.230737280274248 48.065221811680779 ;
-	setAttr ".r" -type "double3" -16.538352729048157 90.999999999864954 0 ;
+	setAttr ".t" -type "double3" 38.2275681453402 44.684519055545515 -31.918492039751911 ;
+	setAttr ".r" -type "double3" -25.538352729023526 152.19999999999789 0 ;
 createNode camera -s -n "perspShape" -p "persp";
 	rename -uid "B4B68EFB-4339-A20B-8F4F-B58D6B071666";
 	setAttr -k off ".v" no;
 	setAttr ".fl" 34.999999999999993;
 	setAttr ".fcp" 1000;
 	setAttr ".fd" 0.05;
-	setAttr ".coi" 71.297534495098603;
+	setAttr ".coi" 90.211405436684444;
 	setAttr ".ow" 0.1;
 	setAttr ".imn" -type "string" "persp";
 	setAttr ".den" -type "string" "persp_depth";
