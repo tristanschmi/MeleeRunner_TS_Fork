@@ -41,6 +41,7 @@ public class RoomManager : MonoBehaviour
         }
 
         registerRoom(newRoom);
+        onAddRoom.Invoke();
     }
 
     public void removeRoom(int roomId)

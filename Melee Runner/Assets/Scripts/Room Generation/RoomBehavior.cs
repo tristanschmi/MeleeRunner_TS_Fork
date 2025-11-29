@@ -10,6 +10,7 @@ public class RoomBehavior : MonoBehaviour
     public RoomInfoSO roomInfo;
     public RoomBoundaryBehavior roomBoundary;
     public DoorBehavior enteranceDoor;
+    public VoidPointBehavior voidPoint; // Determines void placement
 
     [Header("Managers")]
     public RoomManager roomManager;
@@ -26,6 +27,10 @@ public class RoomBehavior : MonoBehaviour
         if (enteranceDoor == null)
         {
             enteranceDoor = transform.GetComponentInChildren<DoorBehavior>();
+        }
+        if (voidPoint == null)
+        {
+            voidPoint = transform.GetComponentInChildren<VoidPointBehavior>();
         }
     }
 
