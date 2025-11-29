@@ -16,7 +16,7 @@ public class BreakableBehavior : MonoBehaviour
         despawnWait = new WaitForSeconds(despawnTime);
     }
 
-    public void Damage(float damage)
+    public void TakeDamage(float damage)
     {
         health -= damage;
 
@@ -29,12 +29,12 @@ public class BreakableBehavior : MonoBehaviour
     public IEnumerator Break()
     {
         onBreak.Invoke();
-        if (gameObject.TryGetComponent<Renderer>(out Renderer renderer))
+        if (gameObject.TryGetComponent(out Renderer renderer))
         {
             renderer.enabled = false;
         }
 
-        if (gameObject.TryGetComponent<Collider>(out Collider collider))
+        if (gameObject.TryGetComponent(out Collider collider))
         {
             collider.enabled = false;
         }

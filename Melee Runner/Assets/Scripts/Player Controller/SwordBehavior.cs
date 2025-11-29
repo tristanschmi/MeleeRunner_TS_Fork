@@ -79,7 +79,7 @@ public class SwordBehavior : MonoBehaviour
         {
             if (gameObject.TryGetComponent(out BreakableBehavior breakable))
             {
-                breakable.Damage(damage);
+                breakable.TakeDamage(damage);
             }
         }
     }

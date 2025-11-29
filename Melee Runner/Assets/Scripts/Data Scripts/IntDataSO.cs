@@ -9,4 +9,9 @@ public class IntDataSO : ScriptableObject
     {
         value = amount;
     }
+
+    public void addValue(int amount)
+    {
+        value += amount;
+    }
 }
