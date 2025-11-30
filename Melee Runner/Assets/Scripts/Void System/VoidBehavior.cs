@@ -28,4 +28,14 @@ public class VoidBehavior : MonoBehaviour
 
         transform.position = lowestPoint;
     }
+
+
+
+    void OnTriggerEnter(Collider other)
+    {
+        if (other.TryGetComponent(out PlayerBehavior player))
+        {
+            player.TakeDamage(2142069);
+        }
+    }
 }
