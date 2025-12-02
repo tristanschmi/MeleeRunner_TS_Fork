@@ -1042,18 +1042,34 @@ PrefabInstance:
       propertyPath: m_Mesh
       value: 
       objectReference: {fileID: 401269774}
+    - target: {fileID: 2361003110834597115, guid: 26f436f055825594087b970cfabf9e20, type: 3}
+      propertyPath: m_VersionIndex
+      value: 1314
+      objectReference: {fileID: 0}
     - target: {fileID: 2582679551495270562, guid: 26f436f055825594087b970cfabf9e20, type: 3}
       propertyPath: m_Mesh
       value: 
       objectReference: {fileID: 1022306183}
+    - target: {fileID: 2582679551495270562, guid: 26f436f055825594087b970cfabf9e20, type: 3}
+      propertyPath: m_VersionIndex
+      value: 2999
+      objectReference: {fileID: 0}
     - target: {fileID: 3043212193202463401, guid: 26f436f055825594087b970cfabf9e20, type: 3}
       propertyPath: m_Mesh
       value: 
       objectReference: {fileID: 136694085}
+    - target: {fileID: 3043212193202463401, guid: 26f436f055825594087b970cfabf9e20, type: 3}
+      propertyPath: m_VersionIndex
+      value: 2999
+      objectReference: {fileID: 0}
     - target: {fileID: 3670876064004409968, guid: 26f436f055825594087b970cfabf9e20, type: 3}
       propertyPath: m_Mesh
       value: 
       objectReference: {fileID: 2095412865}
+    - target: {fileID: 3670876064004409968, guid: 26f436f055825594087b970cfabf9e20, type: 3}
+      propertyPath: m_VersionIndex
+      value: 1314
+      objectReference: {fileID: 0}
     - target: {fileID: 3857504726050762470, guid: 26f436f055825594087b970cfabf9e20, type: 3}
       propertyPath: m_LocalPosition.x
       value: 12.43151
@@ -1098,10 +1114,18 @@ PrefabInstance:
       propertyPath: m_Mesh
       value: 
       objectReference: {fileID: 1920696167}
+    - target: {fileID: 3899456037282802830, guid: 26f436f055825594087b970cfabf9e20, type: 3}
+      propertyPath: m_VersionIndex
+      value: 2996
+      objectReference: {fileID: 0}
     - target: {fileID: 4247596998763581302, guid: 26f436f055825594087b970cfabf9e20, type: 3}
       propertyPath: m_Mesh
       value: 
       objectReference: {fileID: 314885976}
+    - target: {fileID: 4247596998763581302, guid: 26f436f055825594087b970cfabf9e20, type: 3}
+      propertyPath: m_VersionIndex
+      value: 2996
+      objectReference: {fileID: 0}
     - target: {fileID: 5357093104769293107, guid: 26f436f055825594087b970cfabf9e20, type: 3}
       propertyPath: m_Mesh
       value: 

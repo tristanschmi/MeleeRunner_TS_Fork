@@ -10,10 +10,10 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 1b09ec598725f9349ae24a79f1a35fe4, type: 3}
-  m_Name: Big_Spiral_Info
+  m_Name: Windy_Info
   m_EditorClassIdentifier: Assembly-CSharp::RoomInfoSO
-  roomPrefab: {fileID: 6925589276090109439, guid: 9da88f8c3a7d72143b373bf7b12fcace, type: 3}
-  boundaryPrefab: {fileID: 795858101610611619, guid: d2ee6980869f96144809e5250d3c7151, type: 3}
+  roomPrefab: {fileID: 2473612352645515509, guid: bf0fb55d04721c3419091011c1cd2d36, type: 3}
+  boundaryPrefab: {fileID: 3651047273910945932, guid: 3013b987da34f5541a7751d993e8012c, type: 3}
   spawnWeight: 5
-  roomTimer: 10
+  roomTimer: 5
   direction: 0
