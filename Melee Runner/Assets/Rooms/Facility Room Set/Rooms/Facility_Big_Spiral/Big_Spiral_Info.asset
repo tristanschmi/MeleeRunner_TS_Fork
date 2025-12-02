@@ -1,0 +1,19 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1b09ec598725f9349ae24a79f1a35fe4, type: 3}
+  m_Name: Big_Spiral_Info
+  m_EditorClassIdentifier: Assembly-CSharp::RoomInfoSO
+  roomPrefab: {fileID: 6925589276090109439, guid: 9da88f8c3a7d72143b373bf7b12fcace, type: 3}
+  boundaryPrefab: {fileID: 795858101610611619, guid: d2ee6980869f96144809e5250d3c7151, type: 3}
+  spawnWeight: 450000
+  roomTimer: 10
+  direction: 0
